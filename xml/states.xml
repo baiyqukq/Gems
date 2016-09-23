@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<states>
+  <!-- The Main Menu State -->
+  <state name="MainMenuState">
+    <textures>
+      <texture href="assets/playbutton.png" id="PlayButton" />
+      <texture href="assets/exitbutton.png" id="ExitButton" />
+    </textures>
+
+    <objects>
+      <object type="MenuButton" x="88" y="138" width="400" height="100" textureID="PlayButton" callbackID="0" />
+      <object type="MenuButton" x="88" y="338" width="400" height="100" textureID="ExitButton" callbackID="1" />
+    </objects>
+  </state>
+
+  <!-- The Play State -->
+  <state name="PlayState">
+	<textures>
+		<texture href="assets/cursor.png" id="cursor" />
+		<texture href="assets/tile_even.png" id="tile_even" />
+		<texture href="assets/tile_odd.png" id="tile_odd" />
+		<texture href="assets/gem01.png" id="gem01" />
+		<texture href="assets/gem02.png" id="gem02" />
+		<texture href="assets/gem03.png" id="gem03" />
+		<texture href="assets/gem04.png" id="gem04" />
+		<texture href="assets/gem05.png" id="gem05" />
+		<texture href="assets/gem06.png" id="gem06" />
+		<texture href="assets/gem07.png" id="gem07" />
+	</textures>
+	<sounds>
+		<sound href="sounds/click.wav" id="click" />
+		<sound href="sounds/swap.wav" id="swap" />
+	</sounds>
+  </state>
+
+  <state name="GameOverState">
+  </state>
+</states>
